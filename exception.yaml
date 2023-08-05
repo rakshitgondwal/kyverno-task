@@ -1,0 +1,20 @@
+apiVersion: kyverno.io/v2alpha1
+kind: PolicyException
+metadata:
+  name: container-exception
+  namespace: delta
+spec:
+  exceptions:
+  - policyName: max-containers
+    ruleNames:
+    - max-two-containers
+  match:
+    any:
+    - resources:
+        kinds:
+        - Pod
+        - Deployment
+        namespaces:
+        - delta
+        names:
+        - important-app*
