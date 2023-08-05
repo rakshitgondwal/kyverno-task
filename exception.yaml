@@ -8,6 +8,7 @@ spec:
   - policyName: max-containers
     ruleNames:
     - max-two-containers
+    - autogen-max-two-containers
   match:
     any:
     - resources:
