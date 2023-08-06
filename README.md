@@ -7,6 +7,11 @@
 
 ## Solution:
 
+### Video
+
+I have created a video of me doing this task, if you'd like to see it, I have provided a link below:
+https://drive.google.com/file/d/1J4JyTXIxIraJUWend5SB4T_uKEtpLgkA/view?usp=sharing
+
 ### Pre-requisites:
 
 - A running Kubernetes cluster.
